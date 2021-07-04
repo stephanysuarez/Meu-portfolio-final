@@ -1,0 +1,127 @@
+    <!DOCTYPE html>
+    <html data-lt-installed="true" lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu portfólio</title>
+        <link rel="stylesheet"  href="http://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css">
+     </head>
+    <body>
+        <header>
+             <div class="nav-sup">
+                <img src="imagens/IMG_20201114_215307147.jpg" class="img-litle" alt="">
+                <nav>
+                    <a href="#present">APRESENTAÇÃO</a>
+                    <a href="#format">FORMAÇÃO</a>
+                    <a href="#exper">EXPERIÊNCIA</a>
+                    <a href="#proj">PROJETOS</a>
+                    <a href="#cont">CONTATO</a>
+                </nav>
+            </div>
+            <div id="main-capa">
+                 <img src="imagens/IMG_20201114_215307147.jpg" class="img-big" alt="">
+            </div>
+            
+        </header>
+        <main>
+            
+
+    <div> 
+        <h1 id="present" class="name">Stephany Suarez</h1>
+        <p class="dev">Web Developer</p>
+    </div>
+
+    <div class="redes-container">
+        <ul>
+          <li><a href="https://github.com/stephanysuarez" class="github"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/stephany-suarez-1684b0214/" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+  
+      </div>
+
+    <div>
+    
+        <div>
+            <p class="presentation">
+                Meu nome é Stephany Suárez, tenho 26 anos e sou Venezuelana. Estou começando na área da tecnología e estou amando cada coisa que vou aprendendo
+            </p>
+        </div>
+            
+        <div class="card-formation">
+            <h2 id="format">FORMAÇÃO</h2>
+            <ul class="formation">
+                <li>Mérida-Venezuela. 2018</li>
+                <li>Introdução no Programa Nacional de Formação em Histocitotecnologia</li>
+                <li>Universidad Politécnica Territorial do estado Mérida Kleber Ramírez (UPTMKR)</li>
+            </ul>
+        <br>
+           <ul>
+               <li>Março-Setembro 2015</li>
+               <li>Assistente Clínico em Farmácia</li>
+               <li>Colégio de Farmacêuticos do estado Mérida (COLFAR) Mérida-Venezuela.</li>
+           </ul>
+
+        </div>
+          
+        <div class="card-experience">
+            <h2 id="exper">EXPERIÊNCIA</h2>
+                <ul class="lista">
+                    <li>2016-2018</li>
+                    <li>Assistente Clínico em Farmácia</li>
+                    <li>FarmaBIEN. Mérida-Venezuela</li>
+                </ul>
+             <br>
+                <ul>
+                    <li>2015-2016</li>
+                    <li>Assistente Clínico em Farmácia</li>
+                    <li>Farmácia Prada. Mérida-Venezuela</li>
+                </ul>
+
+        </div>
+       
+        <div class="card-proyects">
+        <h2 id="proj">PROJETOS</h2>
+
+          <div class="container">
+
+            <div class="card">
+              <img src="img/agenda.png">
+              <h3>Agenda de Contatos com React</h3>
+              <p>Agenda de Contatos que desenvolvi usando ReactJS</p>
+              <a href="https://github.com/stephanysuarez/agendacontactoReact.git"><button type="button" class="repo">Repositório</button></a>
+            </div>
+
+            <div class="card">
+              <img src="img/arepasrec.png">
+              <h3>Receita com HTML5 e CSS3</h3>
+              <p>Receita que desenvolvi usando HTML5 e estilizado com CSS3</p>
+              <a href="https://github.com/stephanysuarez/Receita-HTML-CSS.git"><button type="button" class="repo">Repositório</button></a>
+            </div>
+
+          </div>
+
+        <div class="card-contact">
+            <h2 id="cont">CONTATO</h2>
+
+            <form name="meu_form">
+              
+                <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" />
+                <label for="nome">Nome</label>
+              
+                <input type="email" id="emailid" placeholder="seuemail@mail.com" name="email" />
+                <label for="email">Email</label>
+              
+                <textarea placeholder="Deixe sua mensagem"></textarea>
+              
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              </form>
+            </div>
+
+    </div>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
